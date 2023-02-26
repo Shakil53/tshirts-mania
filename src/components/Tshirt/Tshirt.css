@@ -1,9 +1,37 @@
 .tshirt {
     border: 1px solid lightblue;
     border-radius: 10px;
-    padding-bottom: 20px;
+    padding: 10px;
+
+}
+
+.tshirt:hover {
+    box-shadow: 0.2px 0.2px 0.1px 0.2px #8888887f;
+    transition: 0.2s;
+}
+
+.text {
+    margin: 0px;
+    margin-bottom: 10px;
 }
 
 .tshirt img {
-    height: 150px;
+    height: 200px;
+    width: 160px;
+}
+
+.btn {
+    border: none;
+    background-color: rgb(213, 255, 255);
+    width: 100%;
+    border-radius: 5px;
+    font-size: medium;
+    font-weight: 600;
+    color: blueviolet;
+    padding: 5px;
+}
+
+.btn:hover {
+    background-color: aquamarine;
+    color: rgb(255, 244, 244)
 }
