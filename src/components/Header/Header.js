@@ -5,10 +5,11 @@ import './Home.css';
 
 const Header = () => {
     return (
-        <nav className='nav-items'>
+        <nav className='header'>
             <Link to='/'>Home</Link>
             <Link to='/about'>About</Link>
             <Link to='/orders'>Orders</Link>
+            <Link to='/grandpa'>Grandpa</Link>
 
         </nav>
     );
